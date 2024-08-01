@@ -1,0 +1,14 @@
+{
+  "name": "currencyconverter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/style.css -o ./build/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.6"
+  }
+}

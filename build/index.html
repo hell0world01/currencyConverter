@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main class=" flex justify-center items-center min-h-screen bg-color">
+        <section class="bg-white py-7 px-10 rounded-lg w-1/4 h-2/4">
+            <div>
+                <h1 class="text-3xl text-color font-semibold">Currency Converter</h1>
+                <form action="" class="my-4">
+                    <div>
+                        <p class="font-medium text-color">Enter Amount</p>
+                        <input type="text" value="1" class="amount outline-none w-full py-3 px-2 border border-gray-400 rounded-xl">
+                    </div>
+                    <div class="drop-down flex justify-between items-center mt-4">
+                        <div class="from">
+                            <p class="text-color font-medium">From</p>
+                            <div class="flex border border-gray-400 rounded-xl p-1">
+                                <img src="https://flagsapi.com/US/flat/64.png" alt="" class="max-w-9">
+                                <select name="from" id="from" class="w-full outline-none rounded-xl">
+                                </select>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-arrow-right-arrow-left mt-4"></i>
+                        <div class="to">
+                            <p class="text-color font-medium">To</p>
+                            <div class="flex border border-gray-400 rounded-xl p-1">
+                                <img src="https://flagsapi.com/NP/flat/64.png" alt="" class="max-w-9">
+                                <select name="to" id="to" class="w-full outline-none rounded-xl">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="display my-4">1USD = 130NP</p>
+                    <button class="bg-emerald-600 text-white w-full py-2 rounded-md">Exchange rate</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- <script src="js/code.js"></script>
+    <script src="js/app.js"></script> -->
+    <script src="js/problem.js"></script>
+</body>
+</html>
